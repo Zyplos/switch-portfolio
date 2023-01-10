@@ -1,0 +1,49 @@
+.home {
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 20px;
+  margin-bottom: 77px;
+}
+
+.profile h1 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.profile img {
+  width: 220px;
+  height: 220px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.profile > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.game_card {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.game_card .online {
+  color: #b1ff0c;
+}
+
+.game_card p {
+  margin: 5px;
+}
+
+.game_card img {
+  width: 90px;
+  height: 90px;
+}

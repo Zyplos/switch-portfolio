@@ -1,0 +1,91 @@
+.header {
+  left: 0;
+  top: 0;
+  margin: 0 32px 0 32px;
+  border-bottom: 1px solid #fff;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 25px;
+}
+
+.header img {
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0 15px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #fff;
+  display: inline-block;
+}
+
+.layout nav {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  padding-left: 50px;
+  padding-right: 30px;
+  font-size: 100%;
+  min-width: 33%;
+  background-color: #323232;
+  background: linear-gradient(0deg, rgba(45, 45, 45, 1) 0%, rgba(50, 50, 50, 1) 21%, rgba(50, 50, 50, 1) 79%, rgba(45, 45, 45, 1) 100%);
+}
+
+.layout nav a {
+  display: block;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 18px;
+  min-width: 50px;
+  /* text-align: center; */
+  background: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  color: #fff;
+  will-change: background-color;
+}
+
+.layout nav a:hover,
+.layout nav a:active {
+  background: rgba(0, 0, 0, 0.2);
+  color: #01ffcb;
+}
+
+.layout nav a.active {
+  border-left: 4px solid #01ffcb;
+  color: #01ffcb;
+}
+
+.layout {
+  display: flex;
+  flex: 1;
+  min-height: 500px;
+}
+
+.layout > div {
+  padding-top: 42px;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 100%;
+  overflow: auto;
+}
+
+.footer {
+  left: 0;
+  top: 0;
+  margin: 0 32px 0 32px;
+  border-top: 1px solid #fff;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 25px;
+}
