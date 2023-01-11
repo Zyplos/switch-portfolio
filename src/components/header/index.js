@@ -21,8 +21,8 @@ const Header = ({ children }) => {
           <Link activeClassName={style.active} href="/profile">
             Projects
           </Link>
-          <Link activeClassName={style.active} href="/profile/john">
-            John
+          <Link activeClassName={style.active} href="/profile/you">
+            Contact
           </Link>
         </nav>
         <div>{children}</div>

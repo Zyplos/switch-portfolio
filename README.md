@@ -1,6 +1,12 @@
 # switch-portfolio
 
-## CLI Commands
+An unfinished project that mocks the Switch UI. Originally meant to be a portfolio site for myself.
+
+Made in Preact.
+
+![Project Screenshot](./screenshot.png)
+
+## Project Setup
 
 ```bash
 # install dependencies
@@ -19,4 +25,4 @@ npm run serve
 npm run test
 ```
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+For detailed explanation on how things work, checkout the [Preact CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
